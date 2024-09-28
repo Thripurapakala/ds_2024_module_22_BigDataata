@@ -1,2 +1,6 @@
 # ds_2024_module_22_BigDataata
 Homework module Big Data
+
+In this homework assignment,SparkSQL to analyze home sales data using a series of structured tasks. The main objectives include importing the home sales data from a CSV file into a Spark DataFrame, creating a temporary table, and executing several SQL queries to extract key metrics. Specifically to calculate the average price of four-bedroom houses sold each year, the average price of homes based on specific criteria, and the average price per "view" rating for homes above a certain price threshold.
+
+Additionally, practice data management techniques by caching the temporary table, verifying its cached status, and comparing query runtimes before and after caching. partition the dataset by the "date_built" field and create a temporary table for the parquet data, executing the same queries to assess performance differences. Finally uncache the temporary table and confirm its uncached status. The assignment emphasizes the importance of efficient data handling and analysis in Spark, and complete each task as outlined in the requirements.
